@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Playpen+Sans:wght@600&display=swap');
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat+Alternates:wght@500&family=Playpen+Sans:wght@600&display=swap');
+
+
+
+h1 {text-align: center;
+     }
+h1{font-family: 'Playpen Sans', cursive;
+    }
+
+h2{ text-align: center;
+    color: black;}
+
+h2 {font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Playpen Sans', cursive;}
+
+h4 {  font-family: 'Cookie', cursive;
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-family: 'Playpen Sans', cursive;
+     }
+h5 {  font-family: 'Cookie', cursive;
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-family: 'Playpen Sans', cursive;
+     }
+
+
+footer { width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: #fff;
+        flex-wrap: wrap;
+        background-color: brown;
+         }
+
+.mapa {padding: 10px 20px;
+       margin: 10px;
+       }
+.social {width: 10vw;
+         display: flex;
+         justify-content: flex-start;
+         align-items:center;
+         padding: 5px;
+         margin: 2px;
+         }
+main{ width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 20px;
+        border: 5px;
+        background-color: #EC7063
+        }
+section { width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 20px;
+        border: 5px;
+        background-color: #EC7063
+        }
+
+.imagen { padding: 5px;}
+
+.imagen:hover {
+            -webkit-transform: rotateY(180deg);
+            -webkit-transform-style: preserve-3d;
+            transform: rotateY(180deg);
+            transform-style: preserve-3d;}
+
+.Scroll { display: flex;
+          justify-content: center;
+          align-items: center;
+          position: static;
+          border-radius: 6px;
+          bottom: 10px;
+
+
+}
